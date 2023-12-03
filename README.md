@@ -21,7 +21,7 @@ Responsive design for a seamless user experience on different devices.
 ![Sample Question](image-1.png)
 ![incorrect answer](image-2.png)
 ![Correct Answer](image-3.png)
-![Quiz End, final score and highscores](image-4.png)
+![Quiz End, final score and highscores](image-5.png)
 
 ## Built With
 

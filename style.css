@@ -23,3 +23,7 @@ button {
 #end-screen {
   text-align: center;
 }
+
+.highscores li{
+  list-style-type: none;
+}
