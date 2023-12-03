@@ -1,24 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="quiz-container">
-        <div id="start-screen">
-            <h1>Code Quiz</h1>
-            <button id="start-button">Start Quiz</button>
-        </div>
-        <div id="question-screen" style="display: none;">
-            <h2 id="question">Question goes here</h2>
-            <ul id="choices"></ul>
-        </div>
+  <div id="quiz-container">
+    <div id="start-screen">
+      <h1>Code Quiz</h1>
+      <button id="start-button">Start Quiz</button>
     </div>
+    <div id="question-screen" style="display: none;">
+      <h2 id="question">Question goes here</h2>
+      <ul id="choices"></ul>
+    </div>
+    <div id="result-screen" style="display: none;">
+      <p id="result-message"></p>
+      <button id="next-button">Next Question</button>
+    </div>
+    <div id="end-screen" style="display: none;">
+      <h2>Quiz Over!</h2>
+      <p>Your score: <span id="final-score"></span></p>
+      <label for="initials">Enter Initials:</label>
+      <input type="text" id="initials">
+      <button id="save-button">Save Score</button>
+      <ul id="highscores"> High Scores
+          <li id="li-1"></li>
+          <li id="li-2"></li>
+          <li id="li-3"></li>
+          <li id="li-4"></li>
+          <li id="li-5"></li>
+          <li id="li-6"></li>
+          <li id="li-7"></li>
+          <li id="li-8"></li>
+          <li id="li-9"></li>
+          <li id="li-10"></li>
+      </ul>
+      <button id="clear-btn">Clear Scores</button>
+      <button id="play-again-btn">Play Again</button>
+        
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
-
 </html>

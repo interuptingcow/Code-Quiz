@@ -1,4 +1,25 @@
 body {
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-  }
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#choices li {
+  list-style-type: none;
+  font-size: medium;
+  margin: 10px 0;
+}
+
+#end-screen {
+  text-align: center;
+}
